@@ -30,14 +30,14 @@ try {
             let title_css = technologies[0].seven;
             let title_tailwind = technologies[0].eight;          
             
-            angular.innerHTML = title_angular;
-            react.innerHTML = title_react;
-            javascript.innerHTML = title_javascript;
-            python.innerHTML = title_python;
-            worpress.innerHTML = title_worpress;
-            html5.innerHTML = title_html5;
-            css.innerHTML = title_css;
-            tailwind.innerHTML = title_tailwind;
+            angular.innerHTML = "Angular" || title_angular;
+            react.innerHTML = "React" || title_react;
+            javascript.innerHTML = "JavaScript" || title_javascript;
+            python.innerHTML = "Python" || title_python;
+            worpress.innerHTML = "WordPress" || title_worpress;
+            html5.innerHTML = "HTML5" || title_html5;
+            css.innerHTML = "CSS" || title_css;
+            tailwind.innerHTML = "Tailwind" || title_tailwind;
 
         })
         .catch((error) => { console.log(error) });
